@@ -1,6 +1,6 @@
 import Amplify from '@aws-amplify/core';
 import App from 'components/App';
-import awsconfig from 'aws-exports';
+import awsconfig from './aws-exports';
 import {withAuthenticator} from 'aws-amplify-react';
 
 Amplify.configure(awsconfig);
