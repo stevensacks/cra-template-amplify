@@ -6,7 +6,7 @@
     "amplify-push": "node amplify/scripts/amplify-push.js",
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "cypress": "cypress open",
-    "upd": "ncu -u -x sass-lint-auto-fix && yarn && yarn start",
+    "upd": "ncu -u yarn && yarn start",
     "test": "react-scripts test --env=jsdom",
     "test-cov": "yarn test --coverage --watch",
     "test-cov-view": "browser-sync start --server --port 5150 --files 'coverage/lcov-report/index.html' --startPath 'coverage/lcov-report'"
