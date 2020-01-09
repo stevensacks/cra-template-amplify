@@ -5,12 +5,12 @@ if (process.env.NODE_ENV === 'production') {
         ? 'staging'
         : window.location.href.includes('dev.')
         ? 'development'
-        : window.location.href.includes(REACT_APP_SENTRY_PROD)
+        : window.location.href.includes(process.env.REACT_APP_SENTRY_PROD)
         ? 'production'
         : 'unknown';
 
     Sentry.init({
-        dsn: REACT_APP_SENTRY_DSN,
+        dsn: process.env.REACT_APP_SENTRY_DSN,
         environment,
         release: process.env.REACT_APP_BUILD_SHA,
     });
