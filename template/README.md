@@ -1,12 +1,17 @@
-This is an AWS Amplify Create React App bootstrapped with my preferred setup of ESLint, Prettier, etc.
+# Create React App Amplify Template
 
+Run this command to use this template:
 ```
 npx create-react-app your-project --template amplify
 ```
 
+This is an AWS Amplify Create React App bootstrapped with my preferred setup of ESLint, Prettier, and a bunch of libraries common to most projects, such as lodash, date-fns, core-js, validator, etc.
+
+It comes with a basic amplify.yml, cypress.json, and jsconfig.json that sets the src folder as the root url for React and Cypress.
+
 You must have already gone through the process of installing the Amplify CLI on your computer.
 
-# Setup
+## Setup
 
 After installing this template with CRA, do the following:
  
