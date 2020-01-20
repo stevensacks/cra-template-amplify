@@ -1,8 +1,10 @@
-This is an AWS Amplify Create React App bootstrapped with my preferred setup.
+This is an AWS Amplify Create React App bootstrapped with my preferred setup of ESLint, Prettier, etc.
+
+```
+npx create-react-app your-project --template amplify
+```
 
 You must have already gone through the process of installing the Amplify CLI on your computer.
-
-This template comes with TypeScript, but TypeScript is not enabled by default because I'm still working through conflicts with my ESLint ruleset and TypeScript's default ESLint rules.
 
 # Setup
 
